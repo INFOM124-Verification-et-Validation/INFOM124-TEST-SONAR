@@ -108,6 +108,7 @@ public class Level {
         this.collisions = collisionMap;
         this.observers = new HashSet<>();
     }
+    
 
     /**
      * Adds an observer that will be notified when the level is won or lost.
